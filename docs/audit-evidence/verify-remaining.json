@@ -1,0 +1,164 @@
+{
+  "moonLander": {
+    "safe1Visible": true,
+    "badge1Safe": true,
+    "mcChecklistAll3AfterSafe": true,
+    "deckCertifiedBadge": true,
+    "safeBannerSummary": "Eagle Touchdown! Safe Lunar Landing Touchdown was 1.60 m/s vertically and 0.60 m/s sideways, with 8% fuel remaining. Mission Control progress saved to your Cadet Dashboard! 705 pts Safe Landing +400 pts Soft Speed Bonus +136 pts Pad Bullseye +157 pts Fuel Saved +12 pts",
+    "badge2Safe": true,
+    "rShortcutActive": true,
+    "missedPadVisible": true,
+    "missedPadMsg": "Missed the Landing Pad Your landing speeds were safe (1.5 m/s vertical, 0.5 m/s sideways), but you touched down 35.5 m from pad center. Use Steer Left / Right to stay inside the glowing pad! Try Again",
+    "flightDirectorEarnedOnDashboard": true
+  },
+  "zeroGravity": {
+    "pushBtnEnabledWhileGliding": true,
+    "v1": "2.40 m/s",
+    "v2MidAir": "4.80 m/s",
+    "finalHeadingWhenCh3Last": "Surface Friction Stopped the Toolbox!",
+    "masteryTextVisibleWhenCh3Last": false
+  },
+  "progressSync": {
+    "asideReadinessMatch": "33%",
+    "asideDashboardLinkText": "Dashboard 33%",
+    "mainOrbitalRingAriaValueNow": "33"
+  },
+  "clsBreakdown": {
+    "/dashboard": {
+      "totalCls": 0.0426,
+      "entries": [
+        {
+          "value": 0.0426,
+          "startTimeMs": 75,
+          "sources": [
+            {
+              "nodeTag": "FOOTER",
+              "nodeText": "ANANTRA — Junior Astronaut Mission Trainer • NASA ",
+              "prevY": 727.75,
+              "currY": 0
+            }
+          ]
+        }
+      ]
+    },
+    "/academy": {
+      "totalCls": 0,
+      "entries": []
+    },
+    "/mission-control": {
+      "totalCls": 0.0521,
+      "entries": [
+        {
+          "value": 0.0521,
+          "startTimeMs": 223,
+          "sources": [
+            {
+              "nodeTag": "FOOTER",
+              "nodeText": "ANANTRA — Junior Astronaut Mission Trainer • NASA ",
+              "prevY": 727.75,
+              "currY": 0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "overlapScan": [
+    {
+      "viewport": "desktop-1366",
+      "route": "/",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "desktop-1366",
+      "route": "/dashboard",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "desktop-1366",
+      "route": "/academy",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "desktop-1366",
+      "route": "/mission-control",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "desktop-1366",
+      "route": "/zero-gravity-lab",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "desktop-1366",
+      "route": "/spacewalk-training",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "desktop-1366",
+      "route": "/emergency-training",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "desktop-1366",
+      "route": "/ai-mentor",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/dashboard",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/academy",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/mission-control",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/zero-gravity-lab",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/spacewalk-training",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/emergency-training",
+      "overlapCount": 0,
+      "overlaps": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/ai-mentor",
+      "overlapCount": 0,
+      "overlaps": []
+    }
+  ]
+}

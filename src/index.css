@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --color-space-void: #050914;
+  --color-space-navy: #0a1124;
+  --color-space-slate: #101a36;
+  --color-space-hover: #17254a;
+  --color-space-border: #1e2d54;
+
+  --color-telemetry-cyan: #38bdf8;
+  --color-telemetry-bright: #67e8f9;
+  --color-telemetry-deep: #0284c7;
+
+  --color-mission-emerald: #34d399;
+  --color-mission-amber: #fbbf24;
+  --color-mission-rose: #fb7185;
+  --color-mission-violet: #a78bfa;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    background-color: var(--color-space-void);
+    color: #f1f5f9;
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-telemetry-cyan);
+    outline-offset: 2px;
+  }
+}
+
+/* Subtle orbital HUD grid & starfield layers */
+.anantra-hud-grid {
+  background-image:
+    linear-gradient(to right, rgba(56, 189, 248, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(56, 189, 248, 0.05) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 15%, #000 35%, transparent 100%);
+}
+
+.anantra-stars-sm {
+  background-image:
+    radial-gradient(1px 1px at 24px 36px, rgba(241, 245, 249, 0.5), transparent),
+    radial-gradient(1px 1px at 96px 112px, rgba(103, 232, 249, 0.4), transparent),
+    radial-gradient(1px 1px at 164px 52px, rgba(241, 245, 249, 0.32), transparent),
+    radial-gradient(1.5px 1.5px at 220px 148px, rgba(241, 245, 249, 0.42), transparent),
+    radial-gradient(1px 1px at 280px 84px, rgba(56, 189, 248, 0.35), transparent);
+  background-size: 320px 200px;
+}
+
+.anantra-stars-lg {
+  background-image:
+    radial-gradient(1.5px 1.5px at 60px 80px, rgba(241, 245, 249, 0.6), transparent),
+    radial-gradient(2px 2px at 190px 40px, rgba(56, 189, 248, 0.45), transparent),
+    radial-gradient(1.5px 1.5px at 310px 190px, rgba(241, 245, 249, 0.35), transparent),
+    radial-gradient(1.5px 1.5px at 410px 120px, rgba(167, 139, 250, 0.32), transparent);
+  background-size: 480px 260px;
+  animation: anantra-twinkle 8s ease-in-out infinite alternate;
+}
+
+.anantra-panel-rim {
+  box-shadow:
+    inset 0 1px 0 rgba(248, 250, 252, 0.06),
+    0 12px 32px rgba(2, 6, 23, 0.35);
+}
+
+@keyframes anantra-twinkle {
+  0% {
+    opacity: 0.45;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .anantra-stars-lg {
+    animation: none;
+    opacity: 0.65;
+  }
+}
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 8mm;
+  }
+
+  html,
+  body {
+    background: #060e22 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .anantra-print-certificate {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    box-shadow: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}

@@ -1,0 +1,2372 @@
+{
+  "baseUrl": "http://127.0.0.1:4173",
+  "timestamp": "2026-11-10T12:13:09.384Z",
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "functional": {
+    "landing": {
+      "passed": true,
+      "deckCardsCount": 6,
+      "landingFooterLinksCount": 0,
+      "headerLinksText": [
+        "ANANTRA\nJunior Astronaut Mission Trainer",
+        "Mission Overview",
+        "Astronaut Dashboard",
+        "Training Deck",
+        "NOVA-07\n|\n160 XP"
+      ],
+      "resumeHref": "/academy",
+      "navigatedToDashboard": true
+    },
+    "dashboard": {
+      "passed": true,
+      "profileHeading": "Welcome aboard, Maya Vance",
+      "initialCertified": "0/6 modules certified",
+      "initialXp": "160 XP",
+      "moonFilteredTitles": [
+        "Mission Control"
+      ],
+      "inProgCount": 2,
+      "notStartedCount": 4,
+      "completedEmptyVisible": true,
+      "afterFreshHeaderXp": "0 XP",
+      "afterSampleHeaderXp": "160 XP"
+    },
+    "academy": {
+      "passed": true,
+      "lessonResults": [
+        {
+          "tabName": "Solar System",
+          "wrongHintShown": true,
+          "unlockedNow": true
+        },
+        {
+          "tabName": "Spacesuits",
+          "wrongHintShown": true,
+          "unlockedNow": true
+        },
+        {
+          "tabName": "Spacecraft",
+          "wrongHintShown": true,
+          "unlockedNow": true
+        },
+        {
+          "tabName": "Astronaut Life",
+          "wrongHintShown": true,
+          "unlockedNow": true
+        }
+      ],
+      "certifyOnLesson4BeforeQuiz": false,
+      "failScoreBannerHasEmeraldClass": true,
+      "failScoreDetected": true,
+      "passScoreVisible": true,
+      "academyCertifiedBadge": true,
+      "academyChecklistAllDone": true
+    },
+    "missionControl": {
+      "passed": false,
+      "pausedLabelVisible": true,
+      "crashMessage": "Hard Landing — Lander Struts Damaged\n\nYou touched down at 19.7 m/s vertically (sideways 0.6 m/s). Fire your engine earlier to keep vertical ",
+      "fuelDepletedAlertSeen": true,
+      "safeTouchdownVisible": false,
+      "badge1Safe": false,
+      "badge2Safe": false,
+      "mcChecklistDone": false,
+      "rShortcutRestarted": true,
+      "missedPadVisible": false,
+      "missedPadMsg": ""
+    },
+    "zeroGravityLab": {
+      "passed": false,
+      "bouncedVisible": true,
+      "autoDockedAtWallWithoutBrake": true,
+      "earthStoppedChallengeDone": false,
+      "zgScore320": true,
+      "zgResetOk": true,
+      "zgModuleChecklistSyncedToDashboard": false
+    },
+    "spacewalkTraining": {
+      "passed": true,
+      "exitDisabledBefore3": true,
+      "fourthToolDisabled": true,
+      "unsafeHammerBlocked": true,
+      "oxygenDepletedVisible": true,
+      "spacewalkCompleted": true,
+      "evaScore984": true,
+      "evaModuleChecklistSyncedToDashboard": false
+    },
+    "emergencyTraining": {
+      "passed": true,
+      "thresholdBreachVisible": true,
+      "emergencyPassed": true,
+      "emgModuleChecklistSyncedToDashboard": false
+    },
+    "aiMentor": {
+      "passed": true,
+      "emptySubmitDisabled": true,
+      "honestDisclaimerVisible": true,
+      "rocketReplyVisible": true,
+      "fallbackVisible": true,
+      "hintVisible": true,
+      "resetClearedChat": true,
+      "deeperInChatWorked": true,
+      "mentorQuiz4of5": true,
+      "mentorModuleChecklistSyncedToDashboard": false
+    },
+    "notFound": {
+      "passed": true,
+      "notFoundVisible": true
+    }
+  },
+  "stateAndStorage": {
+    "passed": false,
+    "zg1PersistedAfterReload": true,
+    "headerXpAfterZeroGComplete": "340",
+    "sidebarVsDashboardPctEqual": false,
+    "corruptedBannerVisible": true,
+    "recoveredFromCorruption": true,
+    "schemaBannerVisible": true,
+    "schemaBannerDismissed": true,
+    "quotaExceededErrorHandledGracefully": true
+  },
+  "responsiveness": [
+    {
+      "viewport": "desktop-1920",
+      "route": "/",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 13,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Resume",
+          "w": 104,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "View Full Dashboard",
+          "w": 189,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Continue Training",
+          "w": 342,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "desktop-1920",
+      "route": "/dashboard",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 33,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "desktop-1920",
+      "route": "/academy",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 18,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "desktop-1920",
+      "route": "/mission-control",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 24,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "desktop-1920",
+      "route": "/zero-gravity-lab",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 19,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "desktop-1920",
+      "route": "/spacewalk-training",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 17,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "desktop-1920",
+      "route": "/emergency-training",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 16,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "desktop-1920",
+      "route": "/ai-mentor",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 26,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "laptop-1366",
+      "route": "/",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 13,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Resume",
+          "w": 104,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "View Full Dashboard",
+          "w": 189,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Continue Training",
+          "w": 342,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "laptop-1366",
+      "route": "/dashboard",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 33,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "laptop-1366",
+      "route": "/academy",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 18,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "laptop-1366",
+      "route": "/mission-control",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 24,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "laptop-1366",
+      "route": "/zero-gravity-lab",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 19,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "laptop-1366",
+      "route": "/spacewalk-training",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 17,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "laptop-1366",
+      "route": "/emergency-training",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 16,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "laptop-1366",
+      "route": "/ai-mentor",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 26,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 147,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Astronaut Dashboard",
+          "w": 170,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "Training Deck",
+          "w": 120,
+          "h": 32
+        },
+        {
+          "tag": "a",
+          "text": "NOVA-07\n|\n160 XP",
+          "w": 182,
+          "h": 30
+        },
+        {
+          "tag": "a",
+          "text": "Mission Overview",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Dashboard\n17%",
+          "w": 238,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Academy\n67%",
+          "w": 238,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "tablet-768",
+      "route": "/",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 10,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 33,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Resume",
+          "w": 104,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "View Full Dashboard",
+          "w": 189,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Continue Training",
+          "w": 300,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Continue Training",
+          "w": 300,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Enter Module",
+          "w": 300,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Enter Module",
+          "w": 300,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "tablet-768",
+      "route": "/dashboard",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 22,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 33,
+          "h": 40
+        },
+        {
+          "tag": "button",
+          "text": "Start Fresh (0%)",
+          "w": 162,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Load Sample Data",
+          "w": 151,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Continue: Academy",
+          "w": 185,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Orbital Scholar",
+          "w": 330,
+          "h": 38
+        },
+        {
+          "tag": "a",
+          "text": "Flight Director",
+          "w": 330,
+          "h": 38
+        },
+        {
+          "tag": "a",
+          "text": "Microgravity Scientist",
+          "w": 330,
+          "h": 38
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "tablet-768",
+      "route": "/academy",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 7,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 33,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset Module",
+          "w": 143,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Mark Lesson Studied",
+          "w": 170,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Next: Spacesuits",
+          "w": 167,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "tablet-768",
+      "route": "/mission-control",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 13,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 33,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset Module",
+          "w": 143,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Launch Lander",
+          "w": 152,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Restart",
+          "w": 100,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Steer Left",
+          "w": 313,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "tablet-768",
+      "route": "/zero-gravity-lab",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 8,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 33,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset Object",
+          "w": 137,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Gentle (3 N)",
+          "w": 218,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Medium (6 N)",
+          "w": 218,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Strong (10 N)",
+          "w": 218,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "tablet-768",
+      "route": "/spacewalk-training",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 6,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 33,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset",
+          "w": 90,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Verify Kit & Exit Airlock",
+          "w": 208,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "tablet-768",
+      "route": "/emergency-training",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 5,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 33,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset",
+          "w": 90,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "tablet-768",
+      "route": "/ai-mentor",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 15,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 33,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Get My Readiness Hint",
+          "w": 205,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset Chat",
+          "w": 125,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Orbits & Free-Fall Floating",
+          "w": 195,
+          "h": 32
+        },
+        {
+          "tag": "button",
+          "text": "Daily Life in Orbit",
+          "w": 144,
+          "h": 32
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 10,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Resume",
+          "w": 104,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "View Full Dashboard",
+          "w": 343,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Continue Training",
+          "w": 301,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Continue Training",
+          "w": 301,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Enter Module",
+          "w": 301,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Enter Module",
+          "w": 301,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/dashboard",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 22,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "button",
+          "text": "Start Fresh (0%)",
+          "w": 162,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Load Sample Data",
+          "w": 151,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Continue: Academy",
+          "w": 271,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Orbital Scholar",
+          "w": 301,
+          "h": 38
+        },
+        {
+          "tag": "a",
+          "text": "Flight Director",
+          "w": 301,
+          "h": 38
+        },
+        {
+          "tag": "a",
+          "text": "Microgravity Scientist",
+          "w": 301,
+          "h": 38
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/academy",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 7,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset Module",
+          "w": 143,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Mark Lesson Studied",
+          "w": 267,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Next: Spacesuits",
+          "w": 167,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/mission-control",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 13,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset Module",
+          "w": 143,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Launch Lander",
+          "w": 152,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Restart",
+          "w": 100,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Steer Left",
+          "w": 129,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/zero-gravity-lab",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 8,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset Object",
+          "w": 137,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Gentle (3 N)",
+          "w": 301,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Medium (6 N)",
+          "w": 301,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Strong (10 N)",
+          "w": 301,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/spacewalk-training",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 6,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset",
+          "w": 90,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Verify Kit & Exit Airlock",
+          "w": 208,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/emergency-training",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 5,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset",
+          "w": 90,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-375",
+      "route": "/ai-mentor",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 15,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Get My Readiness Hint",
+          "w": 205,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset Chat",
+          "w": 125,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Orbits & Free-Fall Floating",
+          "w": 195,
+          "h": 32
+        },
+        {
+          "tag": "button",
+          "text": "Daily Life in Orbit",
+          "w": 144,
+          "h": 32
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-390",
+      "route": "/",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 10,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Resume",
+          "w": 104,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "View Full Dashboard",
+          "w": 358,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Continue Training",
+          "w": 316,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Continue Training",
+          "w": 316,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Enter Module",
+          "w": 316,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Enter Module",
+          "w": 316,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-390",
+      "route": "/dashboard",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 22,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "button",
+          "text": "Start Fresh (0%)",
+          "w": 162,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Load Sample Data",
+          "w": 151,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Continue: Academy",
+          "w": 286,
+          "h": 36
+        },
+        {
+          "tag": "a",
+          "text": "Orbital Scholar",
+          "w": 316,
+          "h": 38
+        },
+        {
+          "tag": "a",
+          "text": "Flight Director",
+          "w": 316,
+          "h": 38
+        },
+        {
+          "tag": "a",
+          "text": "Microgravity Scientist",
+          "w": 316,
+          "h": 38
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-390",
+      "route": "/academy",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 7,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset Module",
+          "w": 143,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Mark Lesson Studied",
+          "w": 282,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Next: Spacesuits",
+          "w": 167,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-390",
+      "route": "/mission-control",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 13,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset Module",
+          "w": 143,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Launch Lander",
+          "w": 152,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Restart",
+          "w": 100,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Steer Left",
+          "w": 136,
+          "h": 40
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-390",
+      "route": "/zero-gravity-lab",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 8,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset Object",
+          "w": 137,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Gentle (3 N)",
+          "w": 316,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Medium (6 N)",
+          "w": 316,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Strong (10 N)",
+          "w": 316,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-390",
+      "route": "/spacewalk-training",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 6,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset",
+          "w": 90,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Verify Kit & Exit Airlock",
+          "w": 208,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-390",
+      "route": "/emergency-training",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 5,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset",
+          "w": 90,
+          "h": 36
+        }
+      ],
+      "offscreenElements": []
+    },
+    {
+      "viewport": "mobile-390",
+      "route": "/ai-mentor",
+      "horizontalOverflowPx": 0,
+      "smallTargetsCount": 15,
+      "sampleSmallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "w": 1,
+          "h": 1
+        },
+        {
+          "tag": "button",
+          "text": "Open navigation menu",
+          "w": 40,
+          "h": 40
+        },
+        {
+          "tag": "a",
+          "text": "Back to Astronaut Dashboard",
+          "w": 248,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Complete Module",
+          "w": 149,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Get My Readiness Hint",
+          "w": 205,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Reset Chat",
+          "w": 125,
+          "h": 36
+        },
+        {
+          "tag": "button",
+          "text": "Orbits & Free-Fall Floating",
+          "w": 195,
+          "h": 32
+        },
+        {
+          "tag": "button",
+          "text": "Daily Life in Orbit",
+          "w": 144,
+          "h": 32
+        }
+      ],
+      "offscreenElements": []
+    }
+  ],
+  "accessibility": {
+    "firstTabFocusText": "Skip to main content",
+    "skipLinkNavigatedHash": true,
+    "mobileDrawerOpensAndClosesWithEsc": true,
+    "contrastFailuresCount": 0,
+    "uniqueContrastIssues": []
+  },
+  "performance": {
+    "routes": {
+      "/": {
+        "domContentLoadedMs": 796,
+        "loadMs": 798,
+        "fcpMs": 944,
+        "lcpMs": 1308,
+        "cls": 0.0017,
+        "domNodeCount": 479,
+        "resourceCount": 7,
+        "totalTransferKB": 198,
+        "externalFontRequestsCount": 1,
+        "jsHeapUsedMB": 3.41
+      },
+      "/dashboard": {
+        "domContentLoadedMs": 83,
+        "loadMs": 83,
+        "fcpMs": 136,
+        "lcpMs": 188,
+        "cls": 0.0853,
+        "domNodeCount": 570,
+        "resourceCount": 10,
+        "totalTransferKB": 3,
+        "externalFontRequestsCount": 4,
+        "jsHeapUsedMB": 4.82
+      },
+      "/mission-control": {
+        "domContentLoadedMs": 77,
+        "loadMs": 77,
+        "fcpMs": 156,
+        "lcpMs": 188,
+        "cls": 0.1563,
+        "domNodeCount": 473,
+        "resourceCount": 10,
+        "totalTransferKB": 3,
+        "externalFontRequestsCount": 4,
+        "jsHeapUsedMB": 6.54
+      },
+      "/academy": {
+        "domContentLoadedMs": 60,
+        "loadMs": 60,
+        "fcpMs": 132,
+        "lcpMs": 200,
+        "cls": 0.2083,
+        "domNodeCount": 427,
+        "resourceCount": 10,
+        "totalTransferKB": 3,
+        "externalFontRequestsCount": 4,
+        "jsHeapUsedMB": 8.84
+      }
+    },
+    "offlineAirGappedTest": {
+      "appRendersAndFunctions": true,
+      "abortedExternalRequests": [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+      ]
+    }
+  }
+}
