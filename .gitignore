@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build & test cache output
+dist/
+dist-ssr/
+coverage/
+.vite/
+.vitest-cache/
+
+# Logs
+*.log
+npm-debug.log*
+*.tsbuildinfo
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Environment variables (keep secrets out of git)
+.env
+.env.local
+.env.*.local
